@@ -8,3 +8,6 @@ out/
 */publish/
 */dist/
 */wwwroot/lib
+
+# Ignore SQLite
+*.db
