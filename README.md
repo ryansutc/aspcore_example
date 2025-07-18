@@ -1,38 +1,8 @@
-# aspcore_example
+# aspcore_examples (and some C# examples)
 
-A Basic ASP Core Blazer Web App Example built with VSCode
+Some Basic ASP Core Blazer Web App Examples built with VSCode as well as some basic C# terminal apps.
 
-The code here is basically following the .NET 8 version of this tutorial:
+These are experiments/refreshers focused on building modern .NET with VSCode and WSL instead of VisualStudio and Windows.
 
-https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-8.0&tabs=visual-studio-code
-
-## Getting Started
-
-### To dev build/run
-
-Get tools and packages needed
-
-```
-dotnet restore
-# ensure they are present
-dotnet tool list -g
-```
-
-```
-pnpm install
-
-[tbd]: some webpack script to copy dist to wwwroot/lib/
-of packages
-```
-
-### To run:
-
-Create database w. fixtures
-
-```
-dotnet ef database update
-```
-
-```
-f5 # choose b/w builds
-```
+For notes on ASP Core and build/deploy cheatsheets:
+https://gist.github.com/ryansutc/48b1194c6d44285226fb6ccd06363f12
